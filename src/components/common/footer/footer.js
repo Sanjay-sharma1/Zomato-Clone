@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer =() => {
     return <div>
-        made with 🔥
+        made with 🔥 by OverReacted.
     </div>
 };
 
