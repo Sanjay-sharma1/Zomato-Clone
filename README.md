@@ -1,3 +1,8 @@
+Working on New Project (Zomato-Clone) with react.js
+You will find daily updates on this repository.
+
+Coming Soon...
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
