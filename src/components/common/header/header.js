@@ -20,12 +20,17 @@ const Header = () => {
                 </div>
                 <div className="location-seperator"></div>
                     <div className="header-searchbar">
-                    <i class="fi fi-rr-search absolute-center search-cion"></i>
-                    <input placeholder="Search for restaurant, cuisine or a dish" className="search-input" />
+                    <i class="fi fi-rr-search absolute-center search-icon"></i>
+                    <input placeholder="Search for restaurant, cuisine or a dish " className="search-input" />
                 </div>
             </div>
             <div className="profile-wrapper">
-                <img src="" alt="" />
+                <img src="https://th.bing.com/th/id/R.f29406735baf0861647a78ae9c4bf5af?rik=GKTBhov2iZge9Q&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_206976.png&ehk=gCH45Zmryw3yqyqG%2fhd8WDQ53zwYfmC8K9OIkNHP%2fNU%3d&risl=&pid=ImgRaw&r=0" 
+                alt="profile" 
+                className = "header-profile-imege"/>
+                {/* <i className="fi fi-rr-user header-profile-image"></i> */}
+                <span className="header-username"> Sanjay </span>
+                <i class="fi fi-rr-angle-small-down absolute-center profile-options-icon"></i>
             </div>
         </div>
     </div>
