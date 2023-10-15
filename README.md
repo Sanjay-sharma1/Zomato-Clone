@@ -2,6 +2,7 @@ Working on New Project (Zomato-Clone) with react.js
 You will find daily updates on this repository.
 
 Created Search Bar Today, lets begin it tomorrow
+Create tab options...
 
 Coming Soon...
 
