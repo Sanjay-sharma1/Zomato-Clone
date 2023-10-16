@@ -3,6 +3,8 @@ import './delivery.css' ;
 import Filters from '../common/filters/filter';
 import DeliveryCollection from './deliveryCollections/deliveryCollection';
 import Topbrands from './topbrands/topbrands';
+import ExploreSection from '../common/exploreSection/exploreSection';
+import { restaurants } from '../../data/restaurant';
 
 const deliveryFilters = [
     {
@@ -33,6 +35,7 @@ const deliveryFilters = [
     },
 ]
 
+const restaurantList = restaurants;
 
 const Delivery =() =>{
     return <div> 
@@ -41,6 +44,7 @@ const Delivery =() =>{
         </div>
         <DeliveryCollection/>
         <Topbrands />
+        <ExploreSection list={restaurantList} collectionName = 'Delivery restaurants in Banglore'/>
     </div>
 }
 
